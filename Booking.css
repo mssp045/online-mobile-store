@@ -1,0 +1,100 @@
+
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+body
+{
+  background-image: url('Images/back.jpg'); 
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
+.rect
+{
+    width: 700px;
+    height: 600px;
+    background:rgba(255,255,255,0.5);
+    top:50%;
+    left:25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    
+}
+
+.main
+{
+  padding-top: 40px;
+  padding-left: 10px;
+}
+.space
+{
+  padding-top: 10px;
+}
+.space1
+{
+  padding-top: 5px;
+}
+.hr
+{
+  border:0.5px solid blue;
+}
+.dont
+{
+  padding-left: 50px;
+}
+.error {
+  width: 93%; 
+  margin: 5px auto; 
+  padding: 3px; 
+  padding-top: 15px;
+  padding-left: 20px;
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.5); 
+  color: #ff0000; 
+  background:rgba(255,255,255,0.5); 
+  border-radius: 5px; 
+  text-align: left;
+}
+

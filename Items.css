@@ -1,0 +1,117 @@
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.body
+{
+  background-image: url('Images/Modify.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.rect
+{
+    width: 600px;
+    height: 970px;
+    background:rgba(255,255,255,0.5);
+    left: 50%;
+    margin-top:35%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+.rect_del
+{
+    width: 600px;
+    height: 970px;
+    background:rgba(255,255,255,0.5);
+    left: 50%;
+    margin-top:35%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+
+.b1
+{
+    padding-top: 1%;
+    font-family: 'Adamina';
+}
+.h2
+{
+  font-family: 'Adamina';
+  font-weight: bold;
+  color: green;
+}
+input[type=text]
+{
+    background-color: #f2f2f2;
+    height: 30px;
+    width: 60%;
+    color: #191a1e;
+    border-color: black;
+    border-width: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 0px 4px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    color: #fff;
+    background-color: green;
+    font-weight: 400;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 0;
+}
